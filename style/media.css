@@ -1,0 +1,126 @@
+@media screen and (max-width:576px) {
+    .logo{
+        display: none;
+    }
+    .nav ul li a{
+        margin-left: 20px;
+    }
+    .nav img{
+        margin-left: 15px;
+    }
+    .header-content{
+        justify-content: center;
+    }
+    .container{
+        width: 100%;
+        margin: 0 auto;
+    }
+    /* top section */
+    .players{
+        grid-template-columns: repeat(2,1fr);
+        padding-left: 0;
+    }
+    .player{
+        flex-direction: column;
+    }
+    .player h3{
+        font-size: 14px;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .top-section hr{
+        width: 335px;
+        margin: 0 auto;
+    }
+    .top-title{
+        text-align: center;
+    }
+    .blogs{
+        grid-template-columns: repeat(1,1fr);
+        row-gap: 0;
+    }
+    .blog{
+        flex-direction: column;
+        margin-left: 0;
+        padding:20px;
+        padding-top:0 ;
+    }
+    .blog-img img{
+        width: 100%;
+        height: 100%;
+        padding: 0;
+    }
+    .blog  div{
+        padding: 20px;
+    }
+    .blog .blog-img {
+        margin-right: 0px;
+    }
+    .all-course{
+        grid-template-columns: repeat(1,1fr);
+        /* padding-bottom: 40px; */
+    }
+    .tumb img{
+        width: 100%;
+        height: 100%;
+    }
+    .course {
+        margin-left: 0;
+        padding: 30px;
+    }
+}
+@media screen and (min-width:577px) and (max-width:992px) {
+    .nav img{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .players{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .container{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .top-section hr{
+        width: 535px;
+        margin: 0 auto;
+    }
+    .top-title{
+        text-align: center;
+    }
+    .blogs{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .blog{
+        flex-direction: column;
+        margin-left: 0;
+        padding: 20px;
+    }
+    .blog-img img{
+        width: 100%;
+        height: 100%;
+    }
+    .blog  div{
+        padding: 20px;
+    }
+    .blog .blog-img {
+        margin-right: 0px;
+    }
+
+    /* .all-course{
+        grid-template-columns: repeat(1,1fr);
+        /* padding-bottom: 40px; */
+
+        .all-course{
+            grid-template-columns: repeat(1,1fr);
+            /* padding-bottom: 40px; */
+        }
+        .tumb img{
+            width: 100%;
+            height: 100%;
+        }
+        .course {
+            margin-left: 0;
+            padding: 30px;
+        }
+}
